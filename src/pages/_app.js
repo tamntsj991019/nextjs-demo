@@ -1,13 +1,12 @@
+import ReduxProvider from "@components/ReduxProvider";
+import React from "react";
+
 const App = ({ Component, pageProps }) => {
-	const Menus = [
-		{ label: "", href: "", as: "" },
-		{ label: "", href: "", as: "" },
-	];
 	return (
-		<div>
+		<ReduxProvider>
 			a
 			<Component {...pageProps} />
-		</div>
+		</ReduxProvider>
 	);
 };
 export default App;

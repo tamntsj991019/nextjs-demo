@@ -1,10 +1,5 @@
-import { useEffect } from "react";
+import Home from "@views/home";
 
-const Home = () => {
-	useEffect(() => {
-		localStorage.setItem("HOME", new Date().toISOString());
-	}, []);
-	return <div>Home</div>;
-};
+const HomePage = () => <Home />;
 
-export default Home;
+export default HomePage;

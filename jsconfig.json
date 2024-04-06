@@ -1,7 +1,15 @@
 {
   "compilerOptions": {
     "paths": {
-      "@src/*": ["./src/*"]
+      // "@src/*": ["./src/*"],
+      "@app/*": ["./src/app/*"],
+      "@components/*": ["./src/components/*"],
+      "@models/*": ["./src/models/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@reduxjs-toolkit/*": ["./src/reduxjs-toolkit/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@views/*": ["./src/views/*"],
     }
   }
 }
